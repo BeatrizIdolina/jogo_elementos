@@ -1,28 +1,28 @@
 def inicio():
     return (
-        "Vocês fazem parte dos Heróis dos Elementos.\n"
-        "A Pedra dos Elementos desapareceu e o templo começa a tremer.\n"
-        "Vocês decidem entrar no templo para recuperá-la."
+        "Olá, vocês foram escolhidos para fazer parte dos Heróis dos Elementos.\n"
+        "Cuidado! Nesse momento A Pedra dos Elementos desapareceu e o templo mágico começa a tremer.\n"
+        "A missao de vocês é entrar no templo para recuperá-la. Boa sorte!"
     )
 
 def escolha_porta():
     return (
-        "Vocês chegam a uma sala com duas portas.\n"
+        "Vocês acabam de chegar a uma sala com duas portas.\n"
         "O Herói do Fogo olha para a porta vermelha.\n"
         "A Heroína da Água observa a porta azul."
     )
 
 def sala_lava():
     return (
-        "Vocês entram na Sala de Lava.\n"
+        "Agora vocês entram na Sala de Lava.\n"
         "A sala está cheia de lava e plataformas perigosas."
     )
 
 def escadas():
     return (
         "O Herói do Fogo puxa a alavanca.\n"
-        "Uma porta secreta se abre.\n"
-        "Existem duas escadas: esquerda ou direita."
+        "E uma porta secreta se abre.\n"
+        "Existem duas escadas: esquerda ou direita, mas tome cuidado. Faça sua escolha muito bem!"
     )
 
 def bau():
@@ -40,13 +40,13 @@ def sala_agua():
 def ponte():
     return (
         "A Heroína da Água aperta um botão.\n"
-        "Uma ponte aparece sobre a água."
+        "Uma ponte aparece sobre a água para atravessar."
     )
 
 def final_bom():
     return (
         "Vocês encontram a Pedra dos Elementos.\n"
-        "FINAL BOM: Os Heróis dos Elementos salvam o templo."
+        "FINAL BOM: Os Heróis dos Elementos salvam o templo. Parabéns!"
     )
 
 def final_ruim(motivo):
